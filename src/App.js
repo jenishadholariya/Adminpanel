@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Layout from './Component/Layout/Layout';
+import { Route, Switch } from 'react-router-dom';
+import Medician from './Container/Medician/Medician';
+import Patients from './Container/Patients/Patients';
+import Appoinment from './Container/Appointment-form/Appoinment';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Switch>
+        <Route path={'/Medician'} exact component={Medician}></Route>
+        <Route path={'/Patients'} exact component={Patients}></Route>
+        <Route path={'/Appoinment'} react component={Appoinment}></Route>
+      </Switch>
+    </Layout>
   );
 }
 
