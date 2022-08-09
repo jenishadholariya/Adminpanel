@@ -4,17 +4,30 @@ import Layout from './Component/Layout/Layout';
 import { Route, Switch } from 'react-router-dom';
 import Medician from './Container/Medician/Medician';
 import Patients from './Container/Patients/Patients';
-import Appoinment from './Container/Appointment-form/Appoinment';
+import { Provider, useSelector } from 'react-redux'
+import { configerestores } from './Redux/Store';
+import Counter from './Container/Counter/Counter';
+import { PersistGate } from 'redux-persist/integration/react';
+import Doctor from './Container/Doctor/Doctor';
 
 function App() {
+
+  const {store,persistor} = configerestores();
+
   return (
-    <Layout>
-      <Switch>
-        <Route path={'/Medician'} exact component={Medician}></Route>
-        <Route path={'/Patients'} exact component={Patients}></Route>
-        <Route path={'/Appoinment'} react component={Appoinment}></Route>
-      </Switch>
-    </Layout>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <Layout>
+          <Switch>
+            <Route path={'/Medician'} exact component={Medician}></Route>
+            <Route path={'/Patients'} exact component={Patients}></Route>
+            <Route path={'/Doctor'} react component={Doctor}></Route>
+            <Route path={'/Counter'} react component={Counter}></Route>
+          </Switch>
+        </Layout>
+      </PersistGate>
+    </Provider>
+
   );
 }
 

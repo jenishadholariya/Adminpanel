@@ -1,0 +1,141 @@
+{
+  "Medician": [
+    {
+      "id": 1,
+      "name": "jenisha",
+      "expiry": "452",
+      "equtity": "52",
+      "price": 350
+    },
+    {
+      "id": 110,
+      "name": "jd",
+      "price": "1000",
+      "expiry": "2023",
+      "equtity": "203"
+    },
+    {
+      "id": 109,
+      "name": "foram",
+      "price": "360",
+      "expiry": "2025",
+      "equtity": "201"
+    },
+    {
+      "id": 962,
+      "name": "M M KKNK",
+      "price": "4646",
+      "expiry": "66",
+      "equtity": "43"
+    },
+    {
+      "id": 499,
+      "name": "ABC",
+      "price": "3500",
+      "expiry": "2025",
+      "equtity": "253"
+    }
+  ],
+  "Patients": [
+    {
+      "id": 11,
+      "name": "motu patlu",
+      "expiry": "452",
+      "equtity": "52",
+      "price": 350
+    },
+    {
+      "id": 12,
+      "name": "tun tun mosi",
+      "expiry": "452",
+      "equtity": "52",
+      "price": 350
+    },
+    {
+      "id": 14,
+      "name": "chutko",
+      "price": "520",
+      "expiry": "2023",
+      "equtity": "205"
+    },
+    {
+      "id": 15,
+      "name": "Doremon",
+      "price": "1002",
+      "expiry": "2025",
+      "equtity": "201"
+    },
+    {
+      "id": 806,
+      "name": "jd",
+      "price": "202",
+      "expiry": "2032",
+      "equtity": "523"
+    },
+    {
+      "id": 257,
+      "name": "JD",
+      "price": "3500",
+      "expiry": "2020",
+      "equtity": "355"
+    },
+    {
+      "id": 570,
+      "name": "Apple",
+      "price": "520",
+      "expiry": "2003",
+      "equtity": "65"
+    },
+    {
+      "id": 124,
+      "name": "ny",
+      "price": "520",
+      "expiry": "2003",
+      "equtity": "100"
+    }
+  ],
+  "Doctor": [
+    {
+      "id": 1,
+      "name": "jeni",
+      "department": "452",
+      "designation": "52",
+      "salary": 350
+    },
+    {
+      "id": 2,
+      "name": "jensha",
+      "department": "452",
+      "designation": "52",
+      "salary": 35000
+    },
+    {
+      "id": 3,
+      "name": "jinal",
+      "department": "452",
+      "designation": "52",
+      "salary": 350451
+    },
+    {
+      "id": 4,
+      "name": "denisha",
+      "department": "452",
+      "designation": "52",
+      "salary": 35001
+    },
+    {
+      "id": 5,
+      "name": "chirag",
+      "department": "452",
+      "designation": "52",
+      "salary": 50000
+    },
+    {
+      "id": 617,
+      "name": "jenisha dholariya",
+      "department": "lm0",
+      "designation": "jmm",
+      "salary": "350000"
+    }
+  ]
+}

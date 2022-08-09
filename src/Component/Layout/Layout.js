@@ -20,7 +20,6 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import HealingIcon from '@mui/icons-material/Healing';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { Navlink } from 'react';
 import { NavLink } from 'react-router-dom';
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 
@@ -87,7 +86,8 @@ export default function Layout({children}) {
   const localData=[
     {label:'Medician' , to:'/Medician' ,icon:<HealingIcon/>},
     {label:'Patients' , to:'/Patients' ,icon:<AccountCircleIcon/>},
-    {label:'Appoinment' , to:'/Appoinment' , icon:<AccessibilityNewIcon/>}
+    {label:'Doctor' , to:'/Doctor' , icon:<AccessibilityNewIcon/>},
+    {label:'Counter' , to:'/Counter' , icon:<AccessibilityNewIcon/>}
   ]
 
   return (
