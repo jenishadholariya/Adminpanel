@@ -22,6 +22,8 @@ import HealingIcon from '@mui/icons-material/Healing';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { NavLink } from 'react-router-dom';
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+import MedicationIcon from '@mui/icons-material/Medication';
+import MediationIcon from '@mui/icons-material/Mediation';
 
 const drawerWidth = 240;
 
@@ -86,8 +88,9 @@ export default function Layout({children}) {
   const localData=[
     {label:'Medician' , to:'/Medician' ,icon:<HealingIcon/>},
     {label:'Patients' , to:'/Patients' ,icon:<AccountCircleIcon/>},
-    {label:'Doctor' , to:'/Doctor' , icon:<AccessibilityNewIcon/>},
-    {label:'Counter' , to:'/Counter' , icon:<AccessibilityNewIcon/>}
+    {label:'Doctor' , to:'/Doctor' , icon:<MedicationIcon/>},
+    {label:'Counter' , to:'/Counter' , icon:<AccessibilityNewIcon/>},
+    {label:'Promise' , to:'/Promise' , icon:<MediationIcon/>},
   ]
 
   return (

@@ -3,7 +3,6 @@ import { RootReducer } from './Reducer/Index';
 import thunk from 'redux-thunk'
 import { persistStore, persistReducer } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
-// import { persistor } from 'redux-persist'
 
 const persistConfig = {
     key: 'root',

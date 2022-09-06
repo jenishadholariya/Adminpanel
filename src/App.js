@@ -9,6 +9,7 @@ import { configerestores } from './Redux/Store';
 import Counter from './Container/Counter/Counter';
 import { PersistGate } from 'redux-persist/integration/react';
 import Doctor from './Container/Doctor/Doctor';
+import PromiseExample from './Container/Examples/PromiseExample';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path={'/Patients'} exact component={Patients}></Route>
             <Route path={'/Doctor'} react component={Doctor}></Route>
             <Route path={'/Counter'} react component={Counter}></Route>
+            <Route path={'/Promise'} react component={PromiseExample}></Route>
           </Switch>
         </Layout>
       </PersistGate>

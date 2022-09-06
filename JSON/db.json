@@ -95,47 +95,5 @@
     }
   ],
   "Doctor": [
-    {
-      "id": 1,
-      "name": "jeni",
-      "department": "452",
-      "designation": "52",
-      "salary": 350
-    },
-    {
-      "id": 2,
-      "name": "jensha",
-      "department": "452",
-      "designation": "52",
-      "salary": 35000
-    },
-    {
-      "id": 3,
-      "name": "jinal",
-      "department": "452",
-      "designation": "52",
-      "salary": 350451
-    },
-    {
-      "id": 4,
-      "name": "denisha",
-      "department": "452",
-      "designation": "52",
-      "salary": 35001
-    },
-    {
-      "id": 5,
-      "name": "chirag",
-      "department": "452",
-      "designation": "52",
-      "salary": 50000
-    },
-    {
-      "id": 617,
-      "name": "jenisha dholariya",
-      "department": "lm0",
-      "designation": "jmm",
-      "salary": "350000"
-    }
   ]
 }
